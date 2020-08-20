@@ -48,7 +48,7 @@ def number_plate_extract(search_number_plate, image):
 a = 0
 photo_paths = []
 # Create a file with paths on your PC
-file = open('paths', 'r')
+file = open('test_images_name', 'r')
 for i in file.readlines():
     photo_paths.append(i)
 
