@@ -20,7 +20,7 @@ def frame_processing():
         # print(frame)
         # Initializing Face Cascade
         # Download the .xml file and change the path according to your PC
-        number_plate_cascade = cv2.CascadeClassifier('self_made.xml')
+        number_plate_cascade = cv2.CascadeClassifier('number_plate.xml')
 
         # Frame conversion RGB to GRAY scale
         height = frame.shape[0]
