@@ -8,7 +8,7 @@ def image_processing(photo_paths):
         path = photo_paths[j][:-1]
 
         # Download the .xml file and change the path
-        number_plate_cascade = cv2.CascadeClassifier('self_made.xml')
+        number_plate_cascade = cv2.CascadeClassifier('number_plate.xml')
 
         # image refining and resizing for optimal result
         image = cv2.imread(path, 1)
